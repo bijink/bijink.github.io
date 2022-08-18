@@ -20,7 +20,7 @@ $(document).ready(() => {
       'dist': -50,
       'padding': 60,
    });
-   $('.carousel').carousel('set', 2);
+   $('.carousel').carousel('set', 3);
    $('.scrollspy').scrollSpy({
       'scrollOffset': 0,
    });

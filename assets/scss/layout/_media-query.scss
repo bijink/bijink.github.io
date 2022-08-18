@@ -18,6 +18,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+   //* Home Section
+   .home {
+      height: 65vh;
+   }
+
+   //* About Section
+   .about {
+      padding-top: 0;
+   }
+
    //* Services Section
    .services {
       &__card {
@@ -59,9 +69,9 @@
       &__carousel {
          margin: -4rem 0 -3rem 0 !important;
          .carousel-item {
-            height: $carousel-height !important;
+            height: $carousel-height  !important;
             &--img {
-               width: $carousel-width !important;
+               width: $carousel-width  !important;
             }
             &--title {
                width: $carousel-width;
@@ -120,9 +130,9 @@
 
       &__carousel {
          .carousel-item {
-            height: $carousel-height !important;
+            height: $carousel-height  !important;
             &--img {
-               width: $carousel-width !important;
+               width: $carousel-width  !important;
             }
             &--title {
                width: $carousel-width;
@@ -143,13 +153,11 @@
 
       .sidenav {
          width: $sideNav-out-w;
-         background: linear-gradient(
-            to right,
-            base.$sideNav-bg-color 0%,
-            base.$sideNav-bg-color $sideNav-in-w,
-            transparent 80%,
-            transparent 100%
-         );
+         background: linear-gradient(to right,
+               base.$sideNav-bg-color 0%,
+               base.$sideNav-bg-color $sideNav-in-w,
+               transparent 80%,
+               transparent 100%);
          .side-nav {
             width: $sideNav-in-w;
          }
@@ -165,13 +173,11 @@
 
       .sidenav {
          width: $sideNav-out-w;
-         background: linear-gradient(
-            to right,
-            base.$sideNav-bg-color 0%,
-            base.$sideNav-bg-color $sideNav-in-w,
-            transparent 80%,
-            transparent 100%
-         );
+         background: linear-gradient(to right,
+               base.$sideNav-bg-color 0%,
+               base.$sideNav-bg-color $sideNav-in-w,
+               transparent 80%,
+               transparent 100%);
          .side-nav {
             width: $sideNav-in-w;
          }
