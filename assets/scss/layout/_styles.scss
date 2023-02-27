@@ -355,6 +355,9 @@
          border-radius: 0.6rem !important;
          .card-image {
             border-radius: inherit !important;
+            &:hover{
+               background-color: base.$color_rgb_40;
+            }
             img {
                height: 18rem !important;
             }
