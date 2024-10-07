@@ -1,0 +1,13 @@
+{
+  "name": "bijin-kandengala-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "author": "Bijin Kandengala",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
