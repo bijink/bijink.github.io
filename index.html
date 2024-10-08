@@ -4,12 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bijin Kandengala - Developer</title>
+    <title>Bijin Kandengala - Web Developer</title>
     <meta name="description" content="A Self-Taught Front-end Web Developer" />
-    <link rel="shortcut icon" href="assets/imgs/page-icon.webp" type="image/x-icon" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <!-- Open Graph -->
     <meta property="og:title" content="Bijin Kandengala" />
-    <meta property="og:image" content="assets/imgs/page-icon.webp" />
+    <meta property="og:image" content="assets/page-logo-png" />
     <meta property="og:description" content="A Self-Taught Front-end Web Developer" />
     <!-- /Open Graph -->
     <link href="./output.css" rel="stylesheet" />
@@ -23,11 +23,11 @@
     <!-- /Google Fonts -->
   </head>
   <body
-    class="bg-white text-gray-900 font-inter container mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-24 pb-40"
+    class="bg-white text-gray-900 font-inter container mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-24 pb-20 sm:pb-40"
   >
-    <header class="py-6 flex justify-between items-center">
+    <header class="py-8 flex justify-between items-center">
       <a href="#" class="text-lg font-medium tracking-wider">BIJIN KANDENGALA</a>
-      <nav>
+      <nav class="hidden sm:block">
         <ul class="flex space-x-6">
           <li><a href="#about" class="hover:text-gray-600">About</a></li>
           <li><a href="#projects" class="hover:text-gray-600">Projects</a></li>
@@ -37,63 +37,88 @@
     </header>
     <main class="text-lg">
       <!-- ABOUT -->
-      <section id="about" class="py-16 flex flex-col md:flex-row items-center text-lg">
-        <div class="md:w-2/3 mb-10 md:mb-0">
-          <h1 class="text-5xl font-bold mb-4">Hello! I'm Bijin, a developer based in India.</h1>
+      <section id="about" class="py-8 sm:py-16 flex flex-col md:flex-row items-center text-lg">
+        <!-- <div class="md:w-2/3"> -->
+        <div class="">
+          <h1 class="text-[46px] leading-[46px] font-bold mb-6">
+            Hello! I'm Bijin, a developer based in India.
+          </h1>
           <div class="text-justify text-gray-700">
-            <p class="">I love building tools that are user-friendly, simple and delightful.</p>
-            <p class="mt-2">
-              I was a student at _ School where I spent 8 months learning the fundamentals of
-              front-end and back-end web development. I also worked at _ where my role was split
-              between helping scale processes through automations and overseeing student teams.
+            <p class="">
+              I love building dynamic and responsive web applications. As a full-stack developer, I
+              enjoy working on both the frontend and backend to create seamless user experiences.
             </p>
             <p class="mt-2">
-              Through these experiences, I had the opportunity to work with both small and large,
-              specialised and cross-functional teams across different time zones and developed a
-              working style that leans towards flexibility, clarity, and collaboration.
+              I started my journey as a self-taught developer and have 1 year of professional
+              experience as a React.js developer. Recently, I expanded my expertise into backend
+              development using Node.js. Now, as a MERN stack developer, I'm equipped to handle both
+              sides of web development effectively.
             </p>
-            <p class="mt-2">I'm currently looking for a new role as a developer. Hire me?</p>
+            <p class="mt-2">
+              I thrive on solving complex problems and delivering high-quality applications that are
+              simple, efficient, and user-friendly. I am always eager to learn new technologies and
+              apply them to build scalable solutions.
+            </p>
+            <p class="mt-2">
+              I'm currently looking for a new role as a full-stack developer. Hire me?
+            </p>
           </div>
-          <div class="space-x-4 mt-8">
+          <div class="mt-8 flex flex-row flex-wrap gap-2 sm:gap-4">
             <a
-              href="https://www.linkedin.com/in/bijink"
-              class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800"
-              >View LinkedIn</a
+              href="https://linkedin.com/in/bijink"
+              class="bg-gray-900 text-white text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3 rounded hover:bg-gray-700"
             >
+              View LinkedIn
+            </a>
             <a
               href="https://github.com/bijink"
-              class="bg-white text-gray-700 px-6 py-3 rounded border border-gray-300 hover:bg-gray-50"
-              >View Github</a
+              class="bg-gray-500/75 text-gray-100 text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3 rounded hover:bg-gray-500/80"
+            >
+              View Github
+            </a>
+            <a
+              href="assets/resume_mern_stack_developer_bijink.pdf"
+              target="_blank"
+              class="bg-white text-gray-700 text-sm sm:text-base px-4 py-2 sm:px-6 sm:py-3 rounded border border-gray-300 hover:bg-gray-50"
+              >View Resume</a
             >
           </div>
         </div>
-        <div class="md:w-1/3 flex flex-row justify-center">
+        <!-- <div class="md:w-1/3 mt-8 md:mt-0 flex flex-row justify-center">
           <img
-            src="/assets/imgs/dummy-profile-img.png"
+            src="/assets/dummy-profile-img.png"
             alt="Bijin Kandengala"
             class="rounded-lg shadow-lg"
           />
-        </div>
+        </div> -->
       </section>
       <!-- PROJECTS -->
-      <section id="projects" class="py-16">
+      <section id="projects" class="py-8 sm:py-16">
         <h2 class="text-3xl font-bold mb-6">Projects</h2>
         <p class="mb-10 text-gray-700">Some of the side projects I'm currently working on:</p>
-        <div class="grid md:grid-cols-2 gap-12">
-          <!--  -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
             <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
-              <!-- browser-top -->
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                 </div>
-                <div class="flex-grow bg-white rounded-md h-7"></div>
-                <div class="">
+                <div
+                  class="flex-grow bg-white rounded-md h-7 text-sm flex items-center px-3 truncate"
+                >
+                  <p class="text-gray-700 truncate">
+                    <span class="text-gray-400">https://</span>shopping-bazaar-com.vercel.app
+                  </p>
+                </div>
+                <a
+                  href="https://shopping-bazaar-com.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
-                    class="w-5 h-5 text-gray-500"
+                    class="w-5 h-5 text-gray-500 hover:text-blue-500"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -106,45 +131,48 @@
                       d="M4 12h14M14 6l6 6-6 6"
                     />
                   </svg>
-                </div>
+                </a>
               </div>
               <div>
                 <img
-                  src="assets/imgs/project-1.png"
+                  src="assets/project-1.png"
                   alt="Front-End Challenge"
-                  class="w-full h-auto rounded mb-4"
+                  class="w-full h-auto rounded"
                 />
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">Front-end challenge</h3>
-              <p class="my-2 text-gray-700">
-                I love finding delightful UI elements on the web and I think recreating components
-                is a great way for front-end developers to practice their skills.
+              <h3 class="text-xl font-bold">Shopping Bazaar (MERN Stack)</h3>
+              <p class="my-2 text-gray-600">
+                Created an e-commerce application using MERN stack. I believe that building a
+                complete application is a great way for developers to practice full-stack
+                development.
               </p>
               <a
-                href="https://shopping-bazaar-frontend.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://github.com/bijink/shopping-bazaar_backend"
                 class="hover:underline text-base font-medium"
                 >View Project</a
               >
             </div>
           </div>
-          <!--  -->
           <div>
             <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
-              <!-- browser-top -->
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
                 </div>
-                <div class="flex-grow bg-white rounded-md h-7"></div>
-                <div class="">
+                <div
+                  class="flex-grow bg-white rounded-md h-7 text-sm flex items-center px-3 truncate"
+                >
+                  <p class="text-gray-700 truncate">
+                    <span class="text-gray-400">https://</span>shopitect.vercel.app
+                  </p>
+                </div>
+                <a href="https://shopitect.vercel.app" target="_blank" rel="noopener noreferrer">
                   <svg
-                    class="w-5 h-5 text-gray-500"
+                    class="w-5 h-5 text-gray-500 hover:text-blue-500"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -157,44 +185,42 @@
                       d="M4 12h14M14 6l6 6-6 6"
                     />
                   </svg>
-                </div>
+                </a>
               </div>
               <div>
                 <img
-                  src="assets/imgs/project-2.png"
+                  src="assets/project-2.png"
                   alt="Front-End Challenge"
-                  class="w-full h-auto rounded mb-4"
+                  class="w-full h-auto rounded"
                 />
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">Front-end challenge</h3>
-              <p class="my-2 text-gray-700">
-                I love finding delightful UI elements on the web and I think recreating components
-                is a great way for front-end developers to practice their skills.
+              <h3 class="text-xl font-bold">Shopitect (Next.js)</h3>
+              <p class="my-2 text-gray-600">
+                To explore the potential of Next.js, I have created a web application that provides
+                separate spaces for each shop owner to manage their products.
               </p>
               <a
-                href="https://shopitect.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="https://github.com/bijink/shopitect"
                 class="hover:underline text-base font-medium"
                 >View Project</a
               >
             </div>
           </div>
-          <!--  -->
         </div>
       </section>
       <!-- CONTACT -->
-      <section id="contact" class="py-16">
+      <section id="contact" class="py-8 sm:py-16">
         <h2 class="text-3xl font-bold mb-6">Get in touch</h2>
-        <p class="mb-4 text-gray-700">
-          Do you have a job opportunity or idea you'd like to discuss? Feel free to reach me at
+        <p class="text-gray-700">
+          Do you have a job opportunity or idea you'd like to discuss? Feel free to reach out to me
+          at
           <a href="mailto:kbijin528.pro@gmail.com" class="text-red-600 hover:underline font-medium"
             >kbijin528.pro@gmail.com</a
           >. You can also find me on
           <a href="https://github.com/bijink" class="text-red-600 hover:underline font-medium"
-            >Github</a
+            >GitHub</a
           >
           and
           <a href="https://linkedin.com/in/bijink" class="text-red-600 hover:underline font-medium"
@@ -204,6 +230,6 @@
       </section>
     </main>
     <hr />
-    <footer class="py-8 text-left text-gray-800">Built with HTML and Tailwind</footer>
+    <footer class="py-8 text-left text-gray-800">Built with HTML, Tailwind, and ChatGPT</footer>
   </body>
 </html>
