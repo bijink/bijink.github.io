@@ -686,10 +686,6 @@ video {
   align-items: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-12 {
   gap: 3rem;
 }
@@ -977,8 +973,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:block {
-    display: block;
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:w-2\/5 {
@@ -1003,6 +1003,10 @@ video {
 
   .sm\:flex-nowrap {
     flex-wrap: nowrap;
+  }
+
+  .sm\:justify-between {
+    justify-content: space-between;
   }
 
   .sm\:gap-6 {
