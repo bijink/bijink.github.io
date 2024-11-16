@@ -9,6 +9,8 @@
       name="description"
       content="Web developer specializing in building dynamic, responsive, and scalable web applications"
     />
+    <link rel="canonical" href="https://bijinkandengala.in" />
+    <meta name="robots" content="index, follow" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="icon" type="image/png" sizes="96x96" href="assets/page-icon_96x96.png" />
     <link rel="icon" type="image/png" sizes="48x48" href="assets/page-icon_48x48.png" />
@@ -22,7 +24,6 @@
     />
     <meta property="og:image" content="assets/page-logo.png" />
     <!-- /Open Graph -->
-    <link href="./output.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,6 +32,7 @@
       rel="stylesheet"
     />
     <!-- /Google Fonts -->
+    <link href="./output.css" rel="stylesheet" />
   </head>
   <body
     class="bg-white text-gray-900 font-inter container mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-20 pb-20 sm:pb-40"
@@ -38,11 +40,23 @@
     <header class="py-8">
       <p class="text-lg font-medium tracking-wider sm:hidden">BIJIN KANDENGALA</p>
       <nav class="hidden sm:flex sm:justify-between">
-        <a href="#" class="text-lg font-medium tracking-wider">BIJIN KANDENGALA</a>
+        <a href="#" title="Bijin Kandengala" class="text-lg font-medium tracking-wider">
+          BIJIN KANDENGALA
+        </a>
         <ul class="flex space-x-6 text-lg">
-          <li><a href="#about" class="hover:text-gray-600">About</a></li>
-          <li><a href="#projects" class="hover:text-gray-600">Projects</a></li>
-          <li><a href="#contact" class="hover:text-gray-600">Contact</a></li>
+          <li>
+            <a href="#about" title="Learn more about me" class="hover:text-gray-600">About</a>
+          </li>
+          <li>
+            <a href="#projects" title="View my projects and work" class="hover:text-gray-600">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact" title="Contact me for inquiries" class="hover:text-gray-600">
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -79,28 +93,30 @@
               <img
                 src="/assets/profile-img.webp"
                 alt="Bijin Kandengala"
+                loading="lazy"
                 class="rounded-2xl shadow-lg"
               />
             </div>
             <div
-              class="flex flex-row items-center flex-wrap gap-2 sm:flex-col sm:flex-nowrap sm:gap-6 sm:w-2/5 lg:w-full lg:flex-row lg:flex-wrap lg:gap-4"
+              class="flex flex-row items-center flex-wrap gap-3 text-center sm:flex-col sm:flex-nowrap sm:gap-6 sm:w-2/5 lg:w-full lg:flex-row lg:flex-wrap lg:gap-4"
             >
               <a
                 href="https://linkedin.com/in/bijink"
-                class="bg-gray-900 text-white text-sm sm:text-base px-4 py-2 sm:w-40 sm:px-6 sm:py-3 lg:w-fit rounded hover:bg-gray-700"
+                class="bg-gray-900 text-white text-sm sm:text-base px-4 py-2 sm:w-44 sm:px-6 sm:py-3 lg:w-fit rounded hover:bg-gray-700"
               >
                 View LinkedIn
               </a>
               <a
                 href="https://github.com/bijink"
-                class="bg-gray-500/75 text-gray-100 text-sm sm:text-base px-4 py-2 sm:w-40 sm:px-6 sm:py-3 lg:w-fit rounded hover:bg-gray-500/80"
+                class="bg-gray-500/75 text-gray-100 text-sm sm:text-base px-4 py-2 sm:w-44 sm:px-6 sm:py-3 lg:w-fit rounded hover:bg-gray-500/80"
               >
                 View Github
               </a>
               <a
                 href="https://doc-server-cf6117.gitlab.io/resume_web_developer_bijink.pdf"
                 target="_blank"
-                class="bg-white text-gray-700 text-sm sm:text-base px-4 py-2 sm:w-40 sm:px-6 sm:py-3 lg:w-fit rounded border border-gray-300 hover:bg-gray-50"
+                rel="noopener noreferrer nofollow"
+                class="bg-white text-gray-700 text-sm sm:text-base px-4 py-2 sm:w-44 sm:px-6 sm:py-3 lg:w-fit rounded border border-gray-300 hover:bg-gray-50"
                 >View Resume</a
               >
             </div>
@@ -110,6 +126,7 @@
           <img
             src="/assets/profile-img.webp"
             alt="Bijin Kandengala"
+            loading="lazy"
             class="rounded-2xl shadow-lg"
           />
         </div>
@@ -134,7 +151,11 @@
                     <span class="text-gray-400">https://</span>shoppingbazaar.online
                   </p>
                 </div>
-                <a href="https://shoppingbazaar.online" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://shoppingbazaar.online"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
                   <svg
                     class="w-5 h-5 text-gray-500 hover:text-blue-500"
                     fill="none"
@@ -155,6 +176,7 @@
                 <img
                   src="assets/project_1-img.webp"
                   alt="Shopping Bazaar"
+                  loading="lazy"
                   class="w-full h-auto rounded-b"
                 />
               </div>
@@ -188,7 +210,11 @@
                     <span class="text-gray-400">https://</span>shopitect.vercel.app
                   </p>
                 </div>
-                <a href="https://shopitect.vercel.app" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://shopitect.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
                   <svg
                     class="w-5 h-5 text-gray-500 hover:text-blue-500"
                     fill="none"
@@ -209,6 +235,7 @@
                 <img
                   src="assets/project_2-img.webp"
                   alt="Shopitect"
+                  loading="lazy"
                   class="w-full h-auto rounded-b"
                 />
               </div>

@@ -690,8 +690,8 @@ video {
   gap: 3rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
@@ -827,6 +827,10 @@ video {
 
 .text-left {
   text-align: left;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-justify {
@@ -989,8 +993,8 @@ video {
     width: 60%;
   }
 
-  .sm\:w-40 {
-    width: 10rem;
+  .sm\:w-44 {
+    width: 11rem;
   }
 
   .sm\:flex-row {
