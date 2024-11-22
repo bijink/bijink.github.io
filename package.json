@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "format": "prettier . --write"
   },
   "author": "Bijin Kandengala",
-  "description": "",
+  "description": "Portfolio website",
+  "prettier": "@bijink/prettier-config",
   "devDependencies": {
+    "@bijink/prettier-config": "1.2.1",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.13"
   }
 }
