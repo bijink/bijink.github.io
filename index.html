@@ -93,7 +93,13 @@
                 src="/assets/profile-img.webp"
                 alt="Bijin Kandengala"
                 loading="lazy"
-                class="rounded-2xl shadow-lg"
+                class="rounded-2xl shadow-lg sm:hidden"
+              />
+              <img
+                src="/assets/profile-img_wide.webp"
+                alt="Bijin Kandengala"
+                loading="lazy"
+                class="rounded-2xl shadow-lg hidden sm:block"
               />
             </div>
             <div
@@ -134,9 +140,10 @@
       <section id="projects" class="py-8 sm:py-16">
         <h2 class="text-3xl font-bold mb-6">Projects</h2>
         <p class="mb-10 text-gray-700">Some of the side projects I'm currently working on:</p>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+            <h3 class="text-xl font-bold lg:hidden">Shopping Bazaar (MERN Stack)</h3>
+            <div class="bg-white rounded-lg mt-5 lg:mt-0 overflow-hidden shadow-2xl">
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
@@ -181,7 +188,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">Shopping Bazaar (MERN Stack)</h3>
+              <h3 class="text-xl font-bold hidden lg:block">Shopping Bazaar (MERN Stack)</h3>
               <p class="mt-2 text-gray-600">
                 Developed a full-featured e-commerce application using the MERN stack. This project
                 provided hands-on experience in building and integrating a complete front-end and
@@ -195,7 +202,8 @@
             </div>
           </div>
           <div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+            <h3 class="text-xl font-bold lg:hidden">Shopitect (Next.js)</h3>
+            <div class="bg-white rounded-lg mt-5 lg:mt-0 overflow-hidden shadow-2xl">
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
@@ -240,7 +248,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">Shopitect (Next.js)</h3>
+              <h3 class="text-xl font-bold hidden lg:block">Shopitect (Next.js)</h3>
               <p class="mt-2 text-gray-600">
                 Created a web application using Next.js that enables shop owners to manage their
                 products in separate, dedicated spaces. This project highlights the potential of
@@ -254,7 +262,8 @@
             </div>
           </div>
           <div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+            <h3 class="text-xl font-bold lg:hidden">EnTeasers (Netflix clone)</h3>
+            <div class="bg-white rounded-lg mt-5 lg:mt-0 overflow-hidden shadow-2xl">
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
@@ -299,7 +308,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">EnTeasers (Netflix clone)</h3>
+              <h3 class="text-xl font-bold hidden lg:block">EnTeasers (Netflix clone)</h3>
               <p class="mt-2 text-gray-600">
                 Developed a Netflix-inspired web application using React.js to display movie teasers
                 from the TMDB API. This project showcases the integration of third-party APIs and
@@ -313,7 +322,8 @@
             </div>
           </div>
           <div>
-            <div class="bg-white rounded-lg overflow-hidden shadow-2xl">
+            <h3 class="text-xl font-bold lg:hidden">ToDo List</h3>
+            <div class="bg-white rounded-lg mt-5 lg:mt-0 overflow-hidden shadow-2xl">
               <div class="bg-gray-100 px-4 py-2 space-x-5 flex items-center">
                 <div class="flex space-x-1">
                   <div class="w-[14px] h-[14px] rounded-full bg-gray-300"></div>
@@ -358,7 +368,7 @@
               </div>
             </div>
             <div class="mt-8">
-              <h3 class="text-xl font-bold">ToDo List</h3>
+              <h3 class="text-xl font-bold hidden lg:block">ToDo List</h3>
               <p class="mt-2 text-gray-600">
                 Built a basic yet functional ToDo List application using React.js. This project
                 demonstrates effective implementation of dynamic UI updates and efficient state
