@@ -1,9 +1,9 @@
 {
   "name": "bijin-kandengala-portfolio",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+    "start": "npx tailwindcss -i ./input.css -o ./output.css --watch",
     "format": "prettier . --write"
   },
   "author": "Bijin Kandengala",
